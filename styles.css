@@ -5,10 +5,14 @@
 }
 
 .jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   margin-bottom: 0;
   background-color: #fff;
+  background-image: url("img/banjo.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
 }
 
 @media (min-width: 768px) {
@@ -18,8 +22,10 @@
   }
 }
 
-.jumbotron p:last-child {
+.jumbotron p {
   margin-bottom: 0;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .jumbotron-heading {
@@ -28,6 +34,9 @@
 
 .jumbotron .container {
   max-width: 40rem;
+  background: rgb(255, 255, 255, 0.2);
+  padding: 2rem;
+  color: white;
 }
 
 footer {
